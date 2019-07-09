@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.evaluation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.evaluation button {
+  padding: 50px;
+  margin: 40px;
+  font-size: 40px;
+  width: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#audio_player_container {
+  height: 400px;
+}
+
+.audio_player {
+  height: 80%;
+}
+
+#play_pause_button {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.audio_progress_container {
+  border-left: 2px white solid;
+}
+
+#audio_info {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.progress-bar, .progress {
+  height: 50px !important;
+  font-size: 40px;
+}
+
+#questionnaire {
+  margin-top: 100px;
+}
+
+#questionnaire, form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#questionnaire p, form {
+  margin-right: 33%;
+}
+
+form input, form select {
+  width: 300px;
+}
